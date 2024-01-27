@@ -19,13 +19,10 @@ export default function App() {
         <p className="advice-number">Advice #{data && data.slip.id}</p>
         <p className="advice-description">"{data && data.slip.advice}"</p>
         <div className="divider">
-          <img
-            src="/public/icons/pattern-divider-desktop.svg"
-            alt="divider icon"
-          />
+          <img src="/icons/pattern-divider-desktop.svg" alt="divider icon" />
         </div>
         <button onClick={getNewAdvice}>
-          <img src="/public/icons/icon-dice.svg" alt="Dice icon" />
+          <img src="/icons/icon-dice.svg" alt="Dice icon" />
         </button>
       </div>
     </StyledApp>
