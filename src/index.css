@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Manrope:wght@400;800&display=swap");
+
+:root {
+  --Grayish-Blue: hsl(217, 19%, 38%);
+  --Dark-Grayish-Blue: hsl(219, 19%, 24%);
+  --Dark-Blue: hsl(218, 23%, 16%);
+  --Light-Cyan: hsl(193, 38%, 86%);
+  --Neon-Pink: hsl(346, 92%, 80%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
